@@ -34,7 +34,7 @@ namespace Git_Test
                 }
                 userGuesses++;
             } while (userNumber != randomNumber);
-            Console.WriteLine($"Congratulations, You Guessed Right! It only took you {userGuesses} attempts!");
+            Console.WriteLine($"Congratulations, You Guessed Right! It only took you {userGuesses} attempt(s)!");
         }
     }
 }
